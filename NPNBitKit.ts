@@ -10,6 +10,7 @@ namespace NPNBitKit {
     //% pinName.fieldOptions.width=220
     //% pinName.fieldOptions.columns=4
     //% weight=50
+    //% parts = ChipiIRReceiver trackArgs= 0
     export function Button(pinName: DigitalPin): boolean {
         if (pins.digitalReadPin(pinName) == 0) return true
         else return false
