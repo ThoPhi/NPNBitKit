@@ -1,29 +1,52 @@
 {
   "NPNBitKit": {
     "visual": {
-      "image": "parts/MicrobitChipiBase.jpg",
-      "width": 227,
-      "height": 102,
-      "pinDistance": 7.2,
+      "width": 100,
+      "height": 100,
+      "pinDistance": 25,
       "pinLocations": [
         {
-          "x": 0.1,
-          "y": 37.4
+          "x": 25,
+          "y": 25
         },
         {
-          "x": 0.1,
-          "y": 44.6
+          "x": 50,
+          "y": 25
         },
         {
-          "x": 0.1,
-          "y": 51.8
+          "x": 75,
+          "y": 25
         },
         {
-          "x": 0.1,
-          "y": 59
-        }      ]
+          "x": 100,
+          "y": 25
+        }
+      ],
+      "image": "parts/ChipiIRReceiver"
     },
     "numberOfPins": 4,
+    "pinDefinitions": [
+      {
+        "target": "threeVolt",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "ground",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "In",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "Out",
+        "style": "male",
+        "orientation": "+Y"
+      }
+    ],
     "instantiation": {
       "kind": "function",
       "fullyQualifiedName": "NPNBitKit.Button,NPNBitKit.ButtonTouch,NPNBitKit.ButtonDoorOpen,NPNBitKit.Led,NPNBitKit.Led2ColorAnalog,NPNBitKit.Buzzer,NPNBitKit.Relay,NPNBitKit.AnalogSoilMosture,NPNBitKit.AnalogSound,NPNBitKit.AnalogLight",
@@ -33,28 +56,6 @@
         }
       ]
     },
-    "pinDefinitions": [
-      {
-        "target": "ground",
-        "style": "male",
-        "orientation": "+Y"
-      },
-      {
-        "target": "threeVolt",
-        "style": "male",
-        "orientation": "+Y"
-      },
-      {
-        "target": "SDA",
-        "style": "male",
-        "orientation": "+Y"
-      },
-      {
-        "target": "SCL",
-        "style": "male",
-        "orientation": "+Y"
-      }
-    ],
     "assembly": [
       {
         "pinIndices": [
