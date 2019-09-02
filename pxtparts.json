@@ -1,0 +1,69 @@
+{
+  "NPNBitKit": {
+    "visual": {
+      "image": "parts/MicrobitChipiBase.jpg",
+      "width": 227,
+      "height": 102,
+      "pinDistance": 7.2,
+      "pinLocations": [
+        {
+          "x": 0.1,
+          "y": 37.4
+        },
+        {
+          "x": 0.1,
+          "y": 44.6
+        },
+        {
+          "x": 0.1,
+          "y": 51.8
+        },
+        {
+          "x": 0.1,
+          "y": 59
+        }      ]
+    },
+    "numberOfPins": 4,
+    "instantiation": {
+      "kind": "function",
+      "fullyQualifiedName": "NPNBitKit.Button,NPNBitKit.ButtonTouch,NPNBitKit.ButtonDoorOpen,NPNBitKit.Led,NPNBitKit.Led2ColorAnalog,NPNBitKit.Buzzer,NPNBitKit.Relay,NPNBitKit.AnalogSoilMosture,NPNBitKit.AnalogSound,NPNBitKit.AnalogLight",
+      "argumentRoles": [
+        {
+          "pinInstantiationIdx": 0
+        }
+      ]
+    },
+    "pinDefinitions": [
+      {
+        "target": "ground",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "threeVolt",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "SDA",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "SCL",
+        "style": "male",
+        "orientation": "+Y"
+      }
+    ],
+    "assembly": [
+      {
+        "pinIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  }
+}
