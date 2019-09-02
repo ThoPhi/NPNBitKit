@@ -9,7 +9,7 @@
         "README.md",
         "main.ts",
         "NPNBitKit.ts",
-        "parts/LCD1602_I2C.svg"
+        "parts/ChipiIRReceiver"
     ],
     "testFiles": [
         "test.ts"
