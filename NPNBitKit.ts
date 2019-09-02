@@ -45,6 +45,7 @@ namespace NPNBitKit {
     //% pinNameRed.fieldOptions.columns=4 pinNameGreen.fieldOptions.columns=4
     //% activeRed.shadow="toggleOnOff" activeGreen.shadow="toggleOnOff"
     //% inlineInputMode=inline
+    //% parts = ChipiIRReceiver
     export function Led2Color(pinNameRed: DigitalPin, activeRed: boolean, pinNameGreen: DigitalPin, activeGreen: boolean) {
         if (activeRed) pins.digitalWritePin(pinNameRed, 1)
         else pins.digitalWritePin(pinNameRed, 0)
