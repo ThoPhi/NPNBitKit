@@ -22,7 +22,7 @@
           "y": 25
         }
       ],
-      "image": "parts/ChipiIRReceiver"
+      "image": "parts/ChipiIRReceiver.svg"
     },
     "numberOfPins": 4,
     "pinDefinitions": [
