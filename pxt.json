@@ -9,7 +9,7 @@
         "README.md",
         "main.ts",
         "NPNBitKit.ts",
-        "parts/ChipiIRReceiver"
+        "parts/ChipiIRReceiver.svg"
     ],
     "testFiles": [
         "test.ts"
